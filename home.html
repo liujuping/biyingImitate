@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>微软必应搜索-全球搜索，有求必应（bing）</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/home_1.css" media="only screen and (max-width:1200px)"/>
+</head>
+<body>
+<div class="header">
+    <div class="header_box fl">
+        <ul>
+            <li><a href="https://www.duba.com/?f=liebaosc" target="_blank"  class="change_color">图片</a></li>
+            <li><a href="https://www.duba.com/?f=liebaosc" target="_blank"  class="change_color">视频</a></li>
+            <li><a href="https://www.duba.com/?f=liebaosc" target="_blank"  class="change_color">网典</a></li>
+            <li><a href="https://www.duba.com/?f=liebaosc" target="_blank"  class="change_color">资讯</a></li>
+            <li><a href="https://www.duba.com/?f=liebaosc" target="_blank"  class="change_color">地图</a></li>
+            <li><a href="https://www.duba.com/?f=liebaosc" target="_blank"  class="change_color">词典</a></li>
+            <li><a href="https://www.duba.com/?f=liebaosc" target="_blank"  class="change_color">更多</a></li>
+            <li>|</li>
+            <li><a href="https://www.duba.com/?f=liebaosc" target="_blank"  class="change_color">微软导航</a></li>
+            <li><a href="https://www.duba.com/?f=liebaosc" target="_blank"  class="change_color">必应软件中心</a></li>
+            <li class="change_color office_online" onmouseover="hide_block(0,'office')" onmouseout="hide_block(1,'office')">OFFICE ONLINE
+                <div class="office">
+                    <ul>
+                        <li>
+                            <div class="off off_1"></div>
+                            <div class="off_text">World Online</div>
+                        </li>
+                        <li>
+                            <div class="off off_2"></div>
+                            <div class="off_text">PowerPoint Online</div>
+                        </li>
+                        <li>
+                            <div class="off off_3"></div>
+                            <div class="off_text">Excel Online</div>
+                        </li>
+                        <li>
+                            <div class="off off_4"></div>
+                            <div class="off_text">日历</div>
+                        </li>
+                        <li>
+                            <div class="off off_4"></div>
+                            <div class="off_text">人脉</div>
+                        </li>
+                        <li>
+                            <div class="off off_5"></div>
+                            <div class="off_text">OneNote Online</div>
+                        </li>
+                        <li>
+                            <div class="off off_6"></div>
+                            <div class="off_text">OneDrive</div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="https://www.duba.com/?f=liebaosc" target="_blank"  class="change_color">OUTLOOK.COM</a></li>
+        </ul>
+    </div>
+    <div class="header_box fr">
+        <ul>
+            <li class="change_color">Bing.com in English</li>
+            <li>|</li>
+            <li>
+                <div class="fl change_color">登录</div>
+                <div class="user fl"></div>
+            </li>
+            <li>
+                <div class="setting" onclick="setting()"></div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="content" >
+    <div class="content_top">
+        <div class="find">
+            <div class="find_input">
+                <input class="biy_input" type="text" onfocus="hide_block(0,'hot_new')" onblur="hide_block(1,'hot_new')">
+                <input class="biy_submit" type="submit" value="">
+                <div class="hot_new">
+                    <div class="title">当前热点</div>
+                    <div class="new">
+                        <div class="new_num_hot">1</div>
+                        <div class="new_title">李光耀去世引国际哀悼</div>
+                    </div>
+                    <div class="new">
+                        <div class="new_num_hot">2</div>
+                        <div class="new_title">中石化为中国油价高喊冤</div>
+                    </div>
+                    <div class="new">
+                        <div class="new_num_hot">3</div>
+                        <div class="new_title">美方松口愿与亚投行合作</div>
+                    </div>
+                    <div class="new">
+                        <div class="new_num_other">4</div>
+                        <div class="new_title">体育总局推12套广场舞</div>
+                    </div>
+                    <div class="new">
+                        <div class="new_num_other">5</div>
+                        <div class="new_title">中国产卫生巾黎巴嫩遭扣押</div>
+                    </div>
+                    <div class="new">
+                        <div class="new_num_other">6</div>
+                        <div class="new_title">的哥被境外利用当间谍</div>
+                    </div>
+                    <div class="new">
+                        <div class="new_num_other">7</div>
+                        <div class="new_title">大学生数硬币被学校通报</div>
+                    </div>
+                    <div class="new">
+                        <div class="new_num_other">8</div>
+                        <div class="new_title">景区招自然体香少女菜花</div>
+                    </div>
+                </div>
+            </div>
+            <div class="new_tip tip_1">
+                <div class="tip_write"></div>
+            </div>
+            <a href="https://www.duba.com/?f=liebaosc" target="_blank">
+                <div class="tip_detail detail_1">
+                    <div class="tip_write">
+                        圣米歇尔山修道院位于圣米歇尔山上<br>
+                        这座山拥有着“西方奇迹”之称哦！
+                    </div>
+                </div>
+            </a>
+            <div class="new_tip tip_2" >
+                <div class="tip_write"></div>
+            </div>
+            <a href="https://www.duba.com/?f=liebaosc" target="_blank">
+                <div class="tip_detail detail_2">
+                    <div class="tip_write">
+                        浏览过了内部花园，现在走出修道院<br>
+                        看看其外部建筑。
+                    </div>
+                </div>
+            </a>
+            <div class="new_tip tip_3">
+                <div class="tip_write"></div>
+            </div>
+            <a href="https://www.duba.com/?f=liebaosc" target="_blank">
+                <div class="tip_detail detail_3">
+                    <div class="tip_write">
+                        公元17世纪时法国一个修道院放宽了修道士修行时的戒律，<br>
+                        允许在斋戒日以喝修士自酿啤酒代替事物充饥。
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="biy_yx fr">
+            <img src="images/biy_yx.png" onclick="biying()">
+            <div class="two_code hide">
+                <div class="code">
+                    <div class="code_img">
+                        <img src="images/2weima.png">
+                    </div>
+                    <div class="code_info">使用微信“扫一扫” 尽享缤纷首页故事。</div>
+                </div>
+                <a href="http://www.sojump.com/jq/3771146.aspx"><div class="biy_ans">参与必应VIP问卷</div></a>
+            </div>
+        </div>
+    </div>
+    <div class="content_bottom">
+        <div class="change_1">
+            <div class="change_left" onclick="new_change(0)"></div>
+        </div>
+        <div class="change_2">
+            <div class="change_right" onclick="new_change(1)"></div>
+        </div>
+        <div class="ul_main">
+        <div class="ul_wrap">
+        <ul>
+            <li class="info_li li_0">
+                <a href="https://www.duba.com/?f=liebaosc" target="_blank">
+                    <div class="new_info">大S遭家暴</div>
+                    <div class="new_img">
+                        <img src="images/img_0.jpg">
+                    </div>
+                </a>
+            </li>
+            <li class="info_li  li_0">
+                <a href="https://www.duba.com/?f=liebaosc" target="_blank">
+                    <div class="new_info">地沟油航班</div>
+                    <div class="new_img">
+                        <img src="images/img_1.jpg">
+                    </div>
+                </a>
+            </li>
+            <li class="info_li  li_0">
+                <a href="https://www.duba.com/?f=liebaosc" target="_blank">
+                    <div class="new_info">拒当FBI线人遭刑讯</div>
+                    <div class="new_img">
+                        <img src="images/img_2.jpg">
+                    </div>
+                </a>
+            </li>
+            <li class="info_li  li_0">
+                <a href="https://www.duba.com/?f=liebaosc" target="_blank">
+                    <div class="new_info">女子喝光洗手液</div>
+                    <div class="new_img">
+                        <img src="images/img_3.jpg">
+                    </div>
+                </a>
+            </li>
+            <li class="info_li  li_0">
+                <a href="https://www.duba.com/?f=liebaosc" target="_blank">
+                    <div class="new_info">地球下火热铁雨</div>
+                    <div class="new_img">
+                        <img src="images/img_4.jpg">
+                    </div>
+                </a>
+            </li>
+            <li class="info_li  li_0">
+                <a href="https://www.duba.com/?f=liebaosc" target="_blank">
+                    <div class="new_info">高曙光求婚成功</div>
+                    <div class="new_img">
+                        <img src="images/img_5.jpg">
+                    </div>
+                </a>
+            </li>
+            <li class="info_li  li_0">
+                <a href="https://www.duba.com/?f=liebaosc" target="_blank">
+                    <div class="new_info">98岁开国将军逝世</div>
+                    <div class="new_img">
+                        <img src="images/img_6.jpg">
+                    </div>
+                </a>
+            </li>
+            <li class="info_li  li_0">
+                <a href="https://www.duba.com/?f=liebaosc" target="_blank">
+                    <div class="new_info">河北急诊室砍人</div>
+                    <div class="new_img">
+                        <img src="images/img_7.jpg">
+                    </div>
+                </a>
+            </li>
+            <li class="info_li  li_1">
+                <a href="https://www.duba.com/?f=liebaosc" target="_blank">
+                    <div class="new_info">大S遭家暴</div>
+                    <div class="new_img">
+                        <img src="images/img_8.jpg">
+                    </div>
+                </a>
+            </li>
+            <li class="info_li  li_1">
+                <a href="https://www.duba.com/?f=liebaosc" target="_blank">
+                    <div class="new_info">大S遭家暴</div>
+                    <div class="new_img">
+                        <img src="images/img_9.jpg">
+                    </div>
+                </a>
+            </li>
+            <li class="info_li  li_1">
+                <a href="https://www.duba.com/?f=liebaosc" target="_blank">
+                    <div class="new_info">大S遭家暴</div>
+                    <div class="new_img">
+                        <img src="images/img_10.jpg">
+                    </div>
+                </a>
+            </li>
+            <li class="info_li  li_1">
+                <a href="https://www.duba.com/?f=liebaosc" target="_blank">
+                    <div class="new_info">大S遭家暴</div>
+                    <div class="new_img">
+                        <img src="images/img_11.jpg">
+                    </div>
+                </a>
+            </li>
+            <li class="info_li  li_1">
+                <a href="https://www.duba.com/?f=liebaosc" target="_blank">
+                    <div class="new_info">大S遭家暴</div>
+                    <div class="new_img">
+                        <img src="images/img_12.jpg">
+                    </div>
+                </a>
+            </li>
+            <li class="info_li  li_1">
+                <a href="https://www.duba.com/?f=liebaosc" target="_blank">
+                    <div class="new_info">大S遭家暴</div>
+                    <div class="new_img">
+                        <img src="images/img_13.jpg">
+                    </div>
+                </a>
+            </li>
+            <li class="info_li  li_1">
+                <a href="https://www.duba.com/?f=liebaosc" target="_blank">
+                    <div class="new_info">大S遭家暴</div>
+                    <div class="new_img">
+                        <img src="images/img_14.jpg">
+                    </div>
+                </a>
+            </li>
+            <li class="info_li  li_1">
+                <a href="https://www.duba.com/?f=liebaosc" target="_blank">
+                    <div class="new_info">大S遭家暴</div>
+                    <div class="new_img">
+                        <img src="images/img_15.jpg">
+                    </div>
+                </a>
+            </li>
+            <li class="info_li  li_1">
+                <a href="https://www.duba.com/?f=liebaosc" target="_blank">
+                    <div class="new_info">大S遭家暴</div>
+                    <div class="new_img">
+                        <img src="images/img_16.jpg">
+                    </div>
+                </a>
+            </li>
+            <li class="info_li  li_1">
+                <a href="https://www.duba.com/?f=liebaosc" target="_blank">
+                    <div class="new_info">大S遭家暴</div>
+                    <div class="new_img">
+                        <img src="images/img_17.jpg">
+                    </div>
+                </a>
+            </li>
+            <li class="info_li  li_1">
+                <a href="https://www.duba.com/?f=liebaosc" target="_blank">
+                    <div class="new_info">大S遭家暴</div>
+                    <div class="new_img">
+                        <img src="images/img_18.jpg">
+                    </div>
+                </a>
+            </li>
+            <li class="info_li  li_1">
+                <a href="https://www.duba.com/?f=liebaosc" target="_blank">
+                    <div class="new_info">大S遭家暴</div>
+                    <div class="new_img">
+                        <img src="images/img_19.jpg">
+                    </div>
+                </a>
+            </li>
+            <li class="info_li  li_1">
+                <a href="https://www.duba.com/?f=liebaosc" target="_blank">
+                    <div class="new_info">大S遭家暴</div>
+                    <div class="new_img">
+                        <img src="images/img_20.jpg">
+                    </div>
+                </a>
+            </li>
+            <li class="info_li  li_1">
+                <a href="https://www.duba.com/?f=liebaosc" target="_blank">
+                    <div class="new_info">大S遭家暴</div>
+                    <div class="new_img">
+                        <img src="images/img_21.jpg">
+                    </div>
+                </a>
+            </li>
+            <li class="info_li  li_1">
+                <a href="https://www.duba.com/?f=liebaosc" target="_blank">
+                    <div class="new_info">大S遭家暴</div>
+                    <div class="new_img">
+                        <img src="images/img_22.jpg">
+                    </div>
+                </a>
+            </li>
+            <li class="info_li  li_1">
+                <a href="https://www.duba.com/?f=liebaosc" target="_blank">
+                    <div class="new_info">大S遭家暴</div>
+                    <div class="new_img">
+                        <img src="images/img_23.jpg">
+                    </div>
+                </a>
+            </li>
+            <li class="info_li  li_1">
+                <a href="https://www.duba.com/?f=liebaosc" target="_blank">
+                    <div class="new_info">大S遭家暴</div>
+                    <div class="new_img">
+                        <img src="images/img_24.jpg">
+                    </div>
+                </a>
+            </li>
+            <li class="info_li  li_1">
+                <a href="https://www.duba.com/?f=liebaosc" target="_blank">
+                    <div class="new_info">大S遭家暴</div>
+                    <div class="new_img">
+                        <img src="images/img_25.jpg">
+                    </div>
+                </a>
+            </li>
+            <li class="info_li  li_1">
+                <a href="https://www.duba.com/?f=liebaosc" target="_blank">
+                    <div class="new_info">大S遭家暴</div>
+                    <div class="new_img">
+                        <img src="images/img_26.jpg">
+                    </div>
+                </a>
+            </li>
+            <li class="info_li  li_1">
+                <a href="https://www.duba.com/?f=liebaosc" target="_blank">
+                    <div class="new_info">大S遭家暴</div>
+                    <div class="new_img">
+                        <img src="images/img_27.jpg">
+                    </div>
+                </a>
+            </li>
+            <li class="info_li  li_1">
+                <a href="https://www.duba.com/?f=liebaosc" target="_blank">
+                    <div class="new_info">大S遭家暴</div>
+                    <div class="new_img">
+                        <img src="images/img_28.jpg">
+                    </div>
+                </a>
+            </li>
+            <li class="info_li  li_1">
+                <a href="https://www.duba.com/?f=liebaosc" target="_blank">
+                    <div class="new_info">大S遭家暴</div>
+                    <div class="new_img">
+                        <img src="images/img_29.jpg">
+                    </div>
+                </a>
+            </li>
+        </ul>
+        </div>
+        </div>
+        <div class="share">
+            <div class="share_info">
+                <a href="http://www.sojump.com/jq/3771146.aspx" target="_blank"><div class="sina"></div></a>
+                <a href="http://www.sojump.com/jq/3771146.aspx" target="_blank"><div class="qq_zone"></div></a>
+                <a href="http://www.sojump.com/jq/3771146.aspx" target="_blank"><div class="ren_ren"></div></a>
+                <a href="http://www.sojump.com/jq/3771146.aspx" target="_blank"><div class="dou_ban"></div></a>
+                <a href="http://www.sojump.com/jq/3771146.aspx" target="_blank"> <div class="teng_xun"></div></a>
+            </div>
+            <div class="share_wrap_text">分享到</div>
+            <div class="share_wrap">
+                <a href="http://www.sojump.com/jq/3771146.aspx" target="_blank"><div class="sina"></div></a>
+            </div>
+            <div class="share_wrap" onclick="share()">
+                <div class="display_share"></div>
+            </div>
+            <div class="share_num fl">1890</div>
+        </div>
+        <div class="bgd" onmouseout="hide_block(1,'bgd_tip')" onmouseover="hide_block(0,'bgd_tip')">
+            <div class="stop bgd_wrap"></div>
+            <div class="bgd_wrap"></div>
+            <div class="right_one bgd_wrap" onclick="bg_change(1)"></div>
+            <div class="left_one bgd_wrap" onclick="bg_change(0)"></div>
+            <div class="help bgd_wrap"></div>
+            <div class="download bgd_wrap"></div>
+        </div>
+        <div class="bgd_tip" onmouseover="hide_block(0,'bgd_tip')" onmouseout="hide_block(1,'bgd_tip')">
+            <h2>荷兰，布尔坦赫城</h2>
+            <p>@Amos Chapple/Rex Features</p>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="footer_wrap fl">
+        @图片来源
+    </div>
+    <div class="footer_wrap fr">
+        <ul>
+            <li>@2015 Microsoft</li>
+            <li>|</li>
+            <li>泸ICP备10042051号</li>
+            <li>|</li>
+            <li><a href="https://www.duba.com/?f=liebaosc" target="_blank"  class="text_line">隐私声明和Cookie</a></li>
+            <li>|</li>
+            <li class="text_line">使用条款</li>
+            <li>|</li>
+            <li class="text_line">广告</li>
+            <li>|</li>
+            <li class="text_line">帮助</li>
+            <li>|</li>
+            <li class="text_line fan_kui">反馈</li>
+        </ul>
+    </div>
+</div>
+<div class="setting_content">
+    <div class="setting_icon">
+        <div class="icon">
+            <div class="icon_1" onclick="back_home()"></div>
+        </div>
+        <div class="icon">
+            <div class="icon_wrap">
+                <div class="icon_2"></div>
+                <div class="icon_focus hide"></div>
+            </div>
+            <div class="icon_text text_1">历史记录</div>
+        </div>
+        <div class="icon">
+            <div class="icon_wrap">
+                <div class="icon_3"></div>
+                <div class="icon_focus"></div>
+            </div>
+            <div class="icon_text">设置</div>
+        </div>
+    </div>
+    <div class="setting_main">
+        <div class="setting_header">
+            <div class="header_box fr">
+                <ul>
+                    <li>Bing.com in English</li>
+                    <li>|</li>
+                    <li>
+                        <div class="fl">登录</div>
+                        <div class="user fl"></div>
+                    </li>
+                    <li>
+                        <div class="setting"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="set_head">
+            <h1>设置</h1>
+        </div>
+        <div class="set_classify">
+            <ul>
+                <li>常规</li>
+                <li>网页</li>
+                <li>主页</li>
+                <li>咨讯</li>
+                <li>全球（WORLDWIDE）</li>
+            </ul>
+        </div>
+        <div class="set_univ">
+            <div class="set_thing border_bottom">
+                <h2>安全搜索</h2>
+                <p>您所在的国家或地区要求严格的必应安全搜索设置，此设置会筛选掉可能会返回成人内容的结果。如果您正在查看成人内容，请告知我们，以便我们在将来将其筛选掉。若要详细了解有关您所在国家或地区的安全搜索要求，请参阅必应提供搜索结果的方式。</p>
+            </div>
+            <div class="set_thing border_bottom">
+                <h2>显示语言</h2>
+                <p>选择用于必应显示和布局的语言。</p>
+                <select class="lan_choice">
+                    <option>简体中文</option>
+                    <option>繁体中文</option>
+                    <option>日本语</option>
+                    <option>English</option>
+                </select>
+            </div>
+            <div class="set_thing">
+                <h2>搜索建议</h2>
+                <p>当您键入时显示搜索建议。</p>
+                <input type="checkbox" checked="checked" id="set_1">
+                <label for="set_1">开启搜索建议</label>
+                <div>
+                    <input type="button" value="保存" class="save">
+                    <input type="button" value="使用默认设置" class="reset">
+                    <input type="button" value="取消" class="no">
+                </div>
+            </div>
+            <div class="set_footer">
+                <div class="fl border_top">
+                    <ul>
+                        <li>@2015 Microsoft</li>
+                        <li>|</li>
+                        <li>泸ICP备10042051号</li>
+                        <li>|</li>
+                        <li>隐私声明和Cookie</li>
+                        <li>|</li>
+                        <li>使用条款</li>
+                        <li>|</li>
+                        <li>广告</li>
+                        <li>|</li>
+                        <li>帮助</li>
+                        <li>|</li>
+                        <li>反馈</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="set_web"></div>
+        <div class="set_home"></div>
+        <div class="set_ans"></div>
+        <div class="set_world"></div>
+    </div>
+    <div class="history_main"></div>
+</div>
+</body>
+<script src="js/home.js"></script>
+</html>
